@@ -4,6 +4,9 @@ import './App.css'
 import Header from './Components/Header'
 import Footer from './Components/Footer'
 import MainContent from './Components/MainContent'
+import Info from './Components/Info/Info'
+import Button from './Components/Info/Button'
+import About from './Components/About'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,7 +14,9 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      <MainContent/>
+      <Info />
+      <Button />
+      <About />
       <Footer/>
     </div>
   )

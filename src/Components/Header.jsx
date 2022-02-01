@@ -1,19 +1,12 @@
 import React from 'react'
-import Logo from '@/assets/logo.png'
+import Profile from '@/assets/profile.jpeg'
+
 
 
 const Header = () => {
     return (
-    <div>
-        <nav className='navbar'>
-            <div className='nav-items'>
-            <img className='brand-logo' src={Logo} alt="logo" />
-            <h2>ReactFacts</h2>
-            </div>
-            <div>
-                <h3>React Course - Project 1</h3>
-            </div>
-        </nav>
+    <div className='profile-img'>
+        <img src={Profile} alt="" />
     </div>
     )
 }
