@@ -1,11 +1,11 @@
-import React from 'react';
+import React from 'react'
 
 const Header = () => {
     return (
     <div>
         <header>
             <nav className='nav'>
-                <img src="assets/logo.png" alt="logo" />
+                <img src="..." alt="logo" />
                 <ul className='nav-link'>
                     <a href="#">
                         <li>Pricing</li>
