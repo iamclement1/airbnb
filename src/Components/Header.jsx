@@ -1,24 +1,19 @@
 import React from 'react'
+import Logo from '@/assets/logo.png'
+
 
 const Header = () => {
     return (
     <div>
-        <header>
-            <nav className='nav'>
-                <img src="..." alt="logo" />
-                <ul className='nav-link'>
-                    <a href="#">
-                        <li>Pricing</li>
-                    </a>
-                    <a href="#">
-                        <li>About</li>
-                    </a>
-                    <a href="#">
-                        <li>Contact</li>
-                    </a>
-                </ul>
-            </nav>
-        </header>
+        <nav className='navbar'>
+            <div className='nav-items'>
+            <img className='brand-logo' src={Logo} alt="logo" />
+            <h2>ReactFacts</h2>
+            </div>
+            <div>
+                <h3>React Course - Project 1</h3>
+            </div>
+        </nav>
     </div>
     )
 }

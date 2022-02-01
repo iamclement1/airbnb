@@ -3,9 +3,9 @@ import React from 'react'
 const Footer = () => {
     return (
     <div>
-        <footer>
+        {/* <footer className='footer'>
             &copy; 2020 Azubuike Development. All right reserved.
-        </footer>
+        </footer> */}
     </div>
     )
 }

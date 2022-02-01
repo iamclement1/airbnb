@@ -3,11 +3,10 @@ import React from 'react'
 const MainContent = () => {
     return (
     <div>
-        <h1>Why I like react</h1>
-        <ol>
-            <li>It's Composable</li>
-            <li>It's Declarative</li>
-        </ol>
+        <h1>Fun Facts About React</h1>
+        <ul>
+            <li>It was first released in 2013</li>
+        </ul>
     </div>
 )
 }
