@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import logo from './logo.svg'
 import './App.css'
 import Header from './Components/Header'
