@@ -6,6 +6,7 @@ import Navbar from './Components/Navbar/Navbar'
 import Hero from './Components/Pages/Hero'
 import Card from './Components/Pages/Card'
 
+
 function App() {
   const [count, setCount] = useState(0)
 
