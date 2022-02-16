@@ -17,6 +17,14 @@ section {
     padding: 20px;
 }
 
+.bold {
+    font-weight: bold;
+}
+
+.gray {
+    color: #918e9b;
+}
+
 .hero {
     display: flex;
     flex-direction: column;
@@ -39,4 +47,22 @@ section {
     padding-top: 12px;
 }
 
+.card {
+    width: 170px;
+    font-size: 12px;
+}
+
+.card-img {
+    width: 100%;
+
+}
+
+.card-stats {
+    display: flex;
+    align-items: center;
+}
+
+.card-star{
+    height: 14px;
+}
 /* props helps in creating reusable and composable react components */
