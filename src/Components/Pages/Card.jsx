@@ -3,12 +3,12 @@ import Image from '../../assets/Card-Img.png'
 import Star from '../../assets/Star.svg'
 
 
-const Card = () => {
+const Card = (props) => {
 
     return (
-    <div>
+    <div className='product'>
         <div className="card">
-            <img className='card-img' src={Image} alt="Card-Image-1" />
+            <img className='card-img' src={ props.img } alt="Card-Image-1" />
             <div className="card-stats">
                 <img className='card-star' src={ Star } alt="" />
                 <span>5.0</span>

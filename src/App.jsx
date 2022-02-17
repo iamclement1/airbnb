@@ -1,10 +1,11 @@
 import { useState } from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import logo from './logo.svg'
 import './App.css'
 import Navbar from './Components/Navbar/Navbar'
 import Hero from './Components/Pages/Hero'
 import Card from './Components/Pages/Card'
+import Image from './assets/Card-Img.png'
+import Img from './assets/CardImg2.png'
 
 
 function App() {
@@ -14,7 +15,13 @@ function App() {
     <div className="App">
       <Navbar />
       <Hero />
-      <Card />
+      <Card 
+      img={ Image }
+      name= 'Life lesson with Clement'
+      />
+      <Card 
+      img={ Img }
+      />
     </div>
   )
 }

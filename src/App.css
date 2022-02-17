@@ -47,19 +47,28 @@ section {
     padding-top: 12px;
 }
 
+.product {
+    display: flex;
+}
+
 .card {
-    width: 170px;
-    font-size: 12px;
+    width: 240px;
+    font-size: 16px;
+    margin: auto;
+
 }
 
 .card-img {
     width: 100%;
+    display: block;
+    padding-bottom: 8px;
 
 }
 
 .card-stats {
     display: flex;
     align-items: center;
+    white-space: nowrap;
 }
 
 .card-star{
